@@ -35,6 +35,8 @@
                 district: District
             }
         },
+        mounted(){
+        },
         methods: {
             result1(ret) {
                 console.log(ret);

@@ -57,7 +57,7 @@
                     if (!value) return true;
                     return isColor(value);
                 },
-                default: '#585858'
+                default: 'rgba(102, 102, 102, 1)'
             },
             fontSize: {
                 validator(value) {
@@ -76,14 +76,14 @@
                     if (!value) return true;
                     return isColor(value);
                 },
-                default: '#E4E4E4'
+                default: 'rgba(221, 221, 221, 1)'
             },
             activeColor: {
                 validator(value) {
                     if (!value) return true;
                     return isColor(value);
                 },
-                default: '#FF5E53'
+                default: 'rgba(0, 183, 238, 1)'
             },
             horizontalScroll: {
                 type: Boolean,

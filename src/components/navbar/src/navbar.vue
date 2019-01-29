@@ -65,5 +65,8 @@
 </script>
 
 <style lang="less">
+    .yd-navbar-center-title{
+        font-weight: bold;
+    }
     @import '../../../styles/components/navbar.less';
 </style>
