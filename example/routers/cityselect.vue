@@ -15,15 +15,14 @@
             </yd-cell-item>
         </yd-cell-group>
 
-        <yd-cityselect v-model="show1" :callback="result1" :items="district"></yd-cityselect>
+        <yd-cityselect v-model="show1" :callback="result1"></yd-cityselect>
 
-        <yd-cityselect v-model="show2" :callback="result2" :items="district" provance="新疆" city="乌鲁木齐市" area="天山区"></yd-cityselect>
+        <yd-cityselect v-model="show2" :callback="result2"  provance="新疆" city="乌鲁木齐市" area="天山区"></yd-cityselect>
 
     </yd-layout>
 </template>
 
 <script type="text/babel">
-    import District from 'ydui-district/dist/jd_province_city_area_id';
 
     export default {
         data() {
@@ -32,7 +31,6 @@
                 show2: false,
                 model1: '',
                 model2: '新疆 乌鲁木齐市 天山区',
-                district: District
             }
         },
         mounted(){

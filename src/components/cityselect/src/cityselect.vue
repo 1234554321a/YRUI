@@ -48,7 +48,7 @@
 <script type="text/babel">
     import {isIOS, pageScroll} from '../../../utils/assist';
     import Mask from '../../mask/src/mask.vue';
-
+    import District from '../gov_province_city_area_id';
     export default {
         name: 'yd-cityselect',
         components: {
@@ -63,6 +63,7 @@
                     txt2: '',
                     txt3: ''
                 },
+                items:District,
                 columnsObj: {
                 },
                 active: {},
@@ -91,10 +92,6 @@
             value: {
                 type: Boolean,
                 default: false
-            },
-            items: {
-                type: Array,
-                required: true
             },
             columns: {
                 validator(val) {

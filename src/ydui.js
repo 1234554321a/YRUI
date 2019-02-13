@@ -42,6 +42,9 @@ import {CheckList, CheckListItem} from './components/checklist';
 import {Search} from './components/search';
 import {ScrollNav, ScrollNavPanel} from './components/scrollnav';
 import {Preview, PreviewHeader, PreviewItem} from './components/preview';
+import {Skid} from './components/skid'
+import {Letter} from './components/letter'
+import {Upimage} from './components/upimage'
 
 window.document.addEventListener('touchstart', function (event) {
     /* Do Nothing */
@@ -114,7 +117,9 @@ const install = function (Vue) {
     Vue.component(Preview.name, Preview);
     Vue.component(PreviewHeader.name, PreviewHeader);
     Vue.component(PreviewItem.name, PreviewItem);
-
+    Vue.component(Skid.name, Skid);
+    Vue.component(Letter.name,Letter)
+    Vue.component(Upimage.name,Upimage)
     Vue.prototype.$dialog = {
         confirm: Confirm,
         alert: Alert,

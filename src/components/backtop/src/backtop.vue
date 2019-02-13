@@ -38,7 +38,6 @@
                 } else {
                     top = this.scrollView.scrollTop
                 }
-
                 scrollTop(this.scrollView, top, 0);
             },
             scrollHandler() {
@@ -64,7 +63,6 @@
         },
         mounted() {
             this.scrollView = getScrollview(this.$el);
-
             this.scrollView.addEventListener('scroll', this.throttledCheck, false);
             this.scrollView.addEventListener('resize', this.scrollHandler, false);
         },

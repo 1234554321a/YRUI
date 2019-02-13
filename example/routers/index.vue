@@ -52,6 +52,9 @@
                     {icon: 'demo-icons-scrollnav', name: 'ScrollNav', link: '/scrollnav'},
                     {icon: 'demo-icons-scrolltab', name: 'ScrollTab', link: '/scrolltab'},
                     {icon: 'demo-icons-preview', name: 'Preview', link: '/preview'},
+                    {icon: '', name: 'Skid', link: '/skid'},
+                    {icon: '', name: 'Letter', link: '/letter'},
+                    {icon: '', name: 'upimg', link: '/upimg'},
                 ]
             }
         }

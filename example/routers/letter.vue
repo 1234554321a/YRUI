@@ -1,0 +1,95 @@
+<template>
+<yd-layout title="letter">
+    <yd-letter :list="list"></yd-letter>
+</yd-layout>
+</template>
+<script>
+export default {
+    data(){
+        return{
+            list:[{
+               letter:'A' ,
+               personnel:[{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },]
+            },{
+               letter:'B' ,
+               personnel:[{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               }]
+            },{
+               letter:'C' ,
+               personnel:[{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },{
+                   avatar:'http://static.ydcss.com/ydui/img/logo.png?t=3.1415926',
+                   name:'丁谷'
+               },]
+            }]
+        }
+    }
+}
+</script>

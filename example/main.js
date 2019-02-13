@@ -49,8 +49,10 @@ import CheckList from './routers/checklist.vue';
 import Search from './routers/search.vue';
 import ScrollNav from './routers/scrollnav.vue';
 import Preview from './routers/preview.vue';
-
+import Skid from './routers/skid.vue';
 import App from './app.vue';
+import Letter from './routers/letter.vue'
+import Upimg from './routers/upimg.vue'
 
 Vue.use(VueRouter);
 Vue.use(Resource);
@@ -104,6 +106,9 @@ const router = new VueRouter({
         {path: '/search', name: 'search', component: Search},
         {path: '/scrollnav', name: 'scrollnav', component: ScrollNav},
         {path: '/preview', name: 'preview', component: Preview},
+        {path:'/skid',name:'skid',component:Skid},
+        {path:'/letter',name:'letter',component:Letter},
+        {path:'/upimg',name:'upimg',component:Upimg}
     ]
 });
 
@@ -128,6 +133,6 @@ router.afterEach(route => {
             document.getElementById('scrollView').scrollTop = scrollTop;
         });
     } else {
-        document.getElementById('scrollView').scrollTop = 0;
+        // document.getElementById('scrollView').scrollTop = 0;
     }
 });
